@@ -15,7 +15,7 @@ def setup():
     font1 = pygame.font.SysFont("Comic Sans MS", 60)
     font2 = pygame.font.SysFont("Comic Sans MS", 50)
     font3 = pygame.font.SysFont("Comic Sans MS", 40)
-    WN = pygame.display.set_mode((1000, 1000))
+    WN = pygame.display.set_mode((1000, 1000), pygame.FULLSCREEN)
     colors = [randclr() for i in range(40)]
     # print(colors)
 
